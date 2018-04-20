@@ -1,17 +1,17 @@
 ## The Simplest Bitcoin Wallet
 
 **The following Bitcoin folks are implemented**
-- Bitcore (BTX): [https://bitcore.cc/tsbw/btx](https://bitcore.cc/tsbw/btx/)
 - Bitcoin (BTC): [https://bitcore.cc/tsbw](https://bitcore.cc/tsbw)
+- Bitcore (BTX): [https://bitcore.cc/tsbw/btx](https://bitcore.cc/tsbw/btx/)
 - Bitcoin Cash (BTC): [https://bitcore.cc/tsbw/bcc](https://bitcore.cc/tsbw/bcc)
 
 
 Nothing is sent to a server, everything is done in the browser. It gets utxo and sends signed txs via external API's.
 
-All API access is wrapped in a "backend" object, which can be easily swapped. 
-- for Bitcore (BTX): [insight.bitcore.cc](insight.bitcore.cc)
-- for Bitcoin (BTC): [blochchain.info](blochchain.info)
-- for Bitcoin Cash (BTC): [blockexplorer.com](blockexplorer.com)
+**All API access is wrapped in a "backend" object, which can be easily swapped.**
+- API for Bitcoin (BTC): [blochchain.info](blochchain.info)
+- API for Bitcore (BTX): [insight.bitcore.cc](insight.bitcore.cc)
+- API for Bitcoin Cash (BTC): [blockexplorer.com](blockexplorer.com)
 
 You can enter a compressed or uncompressed WIF key as your passphrase; this means you can use the same wallets you have at [https://coinb.in](https://coinb.in) or any other wallet that allows exporting in this format.
 
